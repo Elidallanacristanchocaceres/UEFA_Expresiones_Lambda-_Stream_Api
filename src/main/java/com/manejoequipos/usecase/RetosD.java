@@ -8,13 +8,13 @@ import com.manejoequipos.domain.equipos;
 
 public class RetosD {
 
-    // Predicate para filtrar equipos con más de 20 victorias
+    //filtrar equipos con más de 20 victorias
     public static final Predicate<equipos> masDe20Victorias = equipo -> {
         int partidosGanados = Integer.parseInt(equipo.getStatistics().get(0).getPg());
         return partidosGanados > 20;
     };
 
-    // Método para obtener y mostrar equipos con más de 20 victorias
+    // Obtener y mostrar equipos con más de 20 victorias
     public static void equiposMasDe20Victorias(Liga liga) {
         List<String> equipos = liga.getEquipos().stream()
             .filter(masDe20Victorias) // Aplicar el Predicate

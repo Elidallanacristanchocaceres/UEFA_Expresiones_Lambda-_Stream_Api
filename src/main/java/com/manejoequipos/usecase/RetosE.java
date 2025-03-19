@@ -9,7 +9,7 @@ public class RetosE {
         liga.getEquipos().forEach(equipo -> {
             jugador jugadorMasAlto = equipo.getPlayers().stream()
                 .max(Comparator.comparing(j -> {
-                    // Asumiendo que height está en formato "xxx cm"
+                    
                     String heightStr = j.getHeight().replaceAll("[^0-9]", "");
                     return Integer.parseInt(heightStr);
                 }))

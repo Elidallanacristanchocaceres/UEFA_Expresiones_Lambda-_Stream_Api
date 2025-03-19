@@ -6,14 +6,12 @@ import com.manejoequipos.domain.equipos;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-/**
- * Retos que utilizan principalmente la interfaz funcional Function
- */
+//Retos que utilizan principalmente la interfaz funcional Function
+ 
 public class RetosFunctions {
 
-    /**
-     * 2. Obtener el promedio de goles a favor por equipo
-     */
+    //2. Obtener el promedio de goles a favor por equipo
+    
     public static void promedioGolesAFavor(Liga liga) {
         System.out.println("\n--- Promedio de goles a favor por equipo ---");
         

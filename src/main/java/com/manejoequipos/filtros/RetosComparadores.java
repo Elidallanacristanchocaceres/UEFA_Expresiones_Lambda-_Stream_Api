@@ -10,14 +10,12 @@ import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
-/**
- * Retos que utilizan principalmente operaciones de comparación (Comparator)
- */
+//Retos que utilizan principalmente operaciones de comparación (Comparator)
+ 
 public class RetosComparadores {
 
-    /**
-     * 3. Mostrar el equipo con más victorias
-     */
+    //3. Mostrar el equipo con más victorias
+    
     public static void equipoConMasVictorias(Liga liga) {
         System.out.println("\n--- Equipo con más victorias ---");
         
@@ -35,9 +33,7 @@ public class RetosComparadores {
             ));
     }
 
-    /**
-     * 4. Encontrar el jugador más alto de todos los equipos
-     */
+    //4. Encontrar el jugador más alto de todos los equipos
     public static void jugadorMasAlto(Liga liga) {
         System.out.println("\n--- Jugador más alto de todos los equipos ---");
         
@@ -70,9 +66,8 @@ public class RetosComparadores {
             .orElse("Desconocido");
     }
 
-    /**
-     * 8. Listar los jugadores de nacionalidad "Brasileño" y ordenarlos por edad
-     */
+    //8. Listar los jugadores de nacionalidad "Brasileño" y ordenarlos por edad
+    
     public static void jugadoresBrasilenosPorEdad(Liga liga) {
         System.out.println("\n--- Jugadores brasileños ordenados por edad ---");
         
@@ -98,9 +93,8 @@ public class RetosComparadores {
         );
     }
 
-    /**
-     * 12. Obtener los equipos con más de 20 goles a favor ordenados de mayor a menor
-     */
+    //12. Obtener los equipos con más de 20 goles a favor ordenados de mayor a menor
+    
     public static void equiposConMasDe20GolesOrdenados(Liga liga) {
         System.out.println("\n--- Equipos con más de 20 goles a favor (ordenados) ---");
         

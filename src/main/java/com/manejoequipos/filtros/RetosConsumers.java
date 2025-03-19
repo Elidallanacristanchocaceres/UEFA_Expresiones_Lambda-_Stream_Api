@@ -8,14 +8,12 @@ import java.util.function.BiConsumer;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-/**
- * Retos que utilizan principalmente las interfaces funcionales Consumer y BiConsumer
- */
+//Retos que utilizan principalmente las interfaces funcionales Consumer y BiConsumer
+
 public class RetosConsumers {
 
-    /**
-     * 7. Crear un Map con los nombres de los equipos como clave y la cantidad total de goles a favor como valor
-     */
+    //7. Crear un Map con los nombres de los equipos como clave y la cantidad total de goles a favor como valor
+
     public static void mapEquiposGoles(Liga liga) {
         System.out.println("\n--- Map de equipos y sus goles a favor ---");
         

@@ -2,14 +2,12 @@ package com.manejoequipos.filtros;
 
 import com.manejoequipos.domain.Liga;
 
-/**
- * Clase coordinadora que ejecuta todos los retos adicionales
- */
+//Clase coordinadora que ejecuta todos los retos adicionales
+ 
 public class RetosAdicionales {
     
-    /**
-     * Método para ejecutar todos los retos adicionales
-     */
+    //Método para ejecutar todos los retos adicionales
+     
     public static void ejecutarTodosLosRetos(Liga liga) {
         // Retos con Predicates
         RetosPredicates.equiposConMasDe15Puntos(liga);
